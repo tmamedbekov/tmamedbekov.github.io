@@ -3,18 +3,19 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archive: 2018 | Tony Mamedbekov</title>
+    <title>About | Tony Mamedbekov</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Sharing my thoughts">
 <meta name="keywords" content="tony mamedbekov, sitecore mvp, texas, houston, certified, cms expert, front-end developer, developer">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Tony Mamedbekov">
-<meta property="og:url" content="https://tmamedbekov.github.io/archives/2018/index.html">
+<meta property="og:title" content="About">
+<meta property="og:url" content="https://tmamedbekov.github.io/about/index.html">
 <meta property="og:site_name" content="Tony Mamedbekov">
 <meta property="og:description" content="Sharing my thoughts">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-10-02T16:55:37.458Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tony Mamedbekov">
+<meta name="twitter:title" content="About">
 <meta name="twitter:description" content="Sharing my thoughts">
     
 
@@ -180,50 +181,116 @@
 </aside>
 
             
-            <section id="main"><div class="timeline timeline-wrap">
-    
-            <div class="timeline-row timeline-row-major">
-                <span class="node"><i class="fas fa-calendar-alt"></i></span>
-                <h1 class="title">2018</h1>
-            </div>
+            <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2018/09/17/hello-world/">Sitecore Trial License</a>
+        <h1 class="article-title" itemprop="name">
+            About
         </h1>
     
 
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fas fa-calendar-alt"></i>
-        <a href="/2018/09/17/hello-world/">
-            <time datetime="2018-09-17T20:52:38.444Z" itemprop="datePublished">2018-09-17</time>
-        </a>
-    </div>
-
-
-                    
-    <div class="article-category">
-    	<i class="fas fa-folder"></i>
-        <a class="article-category-link" href="/categories/Sitecore/">Sitecore</a><i class="fas fa-angle-right"></i><a class="article-category-link" href="/categories/Sitecore/General/">General</a>
-    </div>
-
-                    
-    <div class="article-tag">
-        <i class="fas fa-tag"></i>
-        <a class="tag-link" href="/tags/sitecore/">sitecore</a>, <a class="tag-link" href="/tags/trial/">trial</a>
-    </div>
-
-                </div>
-            </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            
+        
         </div>
-    
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
 </div>
+
+    <a data-url="https://tmamedbekov.github.io/about/index.html" data-id="cjmrzkhui00094unc4nt8cp31" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fab fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fab fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fab fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fab fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+        
+
+    
+</article>
+
+
+    
+    
+
 </section>
             
                 
